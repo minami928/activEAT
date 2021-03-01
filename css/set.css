@@ -1,0 +1,245 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .navlist a{
+    text-decoration: none;
+    color:#000;
+    padding-left:15px; 
+  }
+  a{
+    text-decoration: none;
+    color:#E97657;
+  }
+  .menulist a{
+    color: #000;
+  }
+  .header{
+    /* border: 1px solid #F00; */
+    height:190px;
+    width: 100%;
+    margin: 0px auto 30px;
+
+  }
+  .logo{
+    width: 300px;
+    margin: 60px 30px 61px 110px;
+    float: left;
+  
+  }
+   .logo img{
+    width: 100%;
+    /* border: dotted 1px green; */
+  } 
+  .image{
+    background-image: url(../images/top_image.png);
+    height: 200px;
+    background-size: cover;
+  }
+  .image p{
+    color: #ECEDEF;
+    font-size: 30px;
+    margin-left:150px;
+    padding-top: 60px;
+  }
+  .right{
+    /* border: dashed 1px orange; */
+    float: right;
+    margin: 90px 90px 60px 0px;
+  }
+  
+  .nav{
+    text-align:center;
+    float:left;
+    /* border: solid 1px red; */
+    margin: 0;
+    width: 756px;
+  }
+  
+  .navlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navlist li{
+    list-style-type: none;
+    display: block;
+      /* margin: 20px; */
+    /* border: solid 1px pink; */
+    text-align: center;
+  }
+  .navlist li+ li {
+    border-left: 1px solid #E97657;
+    padding:0 24px;
+    
+  }
+  .navlist li:first-child{
+    padding-right: 24px;
+  }
+  h2{
+    text-align: center;
+    margin: 80px auto 48px;
+    color:#E97657;
+  }
+  
+  .menu{
+    /* border: 1px solid #F00; */
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+      margin: 0 auto;
+      padding: 0 3%;
+      width: 94%;
+    max-width: 960px;
+   
+    
+  }
+  
+  .menu ul{
+    display: flex;
+    /*justify-content: space-between;*/
+    text-align: center;
+    /* border: 1px solid #F00; */
+    
+  }
+  
+  .menulist{
+    /* border: 1px solid rgb(0, 255, 42); */
+    margin: 48px auto 0;
+    
+  }
+  h3{
+    border: solid 1px rgb(40, 44, 255);
+    margin: 80px 98px 110px;
+    padding: 20px 230px;
+    width: 758px;
+    color: #fff;
+    text-align: center;
+  }
+  .nap{
+    margin-top:80px;
+  }
+  .menu li{
+    list-style-type: none;
+    /* background-color: #ff00ff; */
+    text-align:center;
+  }
+  .menu li + li{
+    border-left: 1px solid #000;
+    padding: 0 50px; 
+  }
+  
+  .menu li:first-child{
+    padding: 0 50px; 
+  }
+  .before{
+    margin-top:80px;
+  }
+
+  .flexbox{
+    /* border: 1px solid #F00; */
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:176px;
+  }
+  h4{
+    text-align: center;
+    color: #E97657;
+    font-size: 30px;
+
+  }
+  .drink{
+    /* border: 1px solid rgb(43, 255, 0); */
+    width: 478px;
+    padding-left:30px; 
+  }
+  drink p{
+    padding:0 200px 85px 30px;
+  }
+  
+  .pet{
+    margin-bottom: 80px;
+  }
+  .momo {
+    text-align: center;
+    width: 100%;
+    /* border: 1px solid #E97657; */
+    background-image: url("../images/maru_bg.png");
+    height: 47px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    padding-top: 18px;
+    
+  }
+  .drink a{
+    color: #fff;
+  }
+  .big{
+    font-size:35px;
+    color: #E97657;
+  }
+  .lauge{
+    font-size:38px;
+    color: #E97657;
+  }
+  .napphote{
+    text-align: center;
+  }
+  .napphote img{
+    width: 40%;
+  
+  }
+  .footer{
+    background-color: #ECEDEF;
+    height: 130px;
+    text-align: center;
+    padding: 0 0 15px;
+  }
+  .footerRight{
+    /* border: dashed 1px orange; */
+    float: right;
+    margin: 35px 90px 34px 0px;
+  }
+  .navlist1{
+    text-align:center;
+    float:left;
+    /* border: solid 1px red; */
+    margin: 0;
+    width: 756px;
+  }
+  .navlist2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .navlist2 li{
+    list-style-type: none;
+    display: block;
+    margin: 20px;
+  }
+  .navlist2 a{
+    text-decoration: none;
+    color: #E97657;
+  }
+  .copyBox{
+    clear: both;
+    border: solid 1px rgba(0, 255, 55, 0);
+    height: 0px;
+    padding: 0;
+    margin: 0 0 0;
+  }
+  .copy{
+    /* border: solid 1px orange; */
+    padding: 0;
+    margin: -30px 0 0 0;
+  }
+  
